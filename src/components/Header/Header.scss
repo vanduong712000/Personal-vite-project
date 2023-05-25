@@ -1,0 +1,48 @@
+
+.header-container {
+  .page-header{
+    .page-header__top{
+        display: flex;
+        justify-content: space-between;
+    }
+   .page-header_logo{
+    padding: 10px;
+    input{
+        height: 25px;
+        outline: none;
+        padding: 5px 30px;
+        border-radius: 6px;
+        border: 1px solid #ddd;
+        width: 400px;
+    }
+    .icon-search{
+        position: relative;
+        left: 29px;
+        top: 4px;
+
+    }
+}
+
+.page-header__bottom{
+    ul {
+        list-style-type: none;
+    }
+   .navigation{
+    display: flex;
+    gap: 20px;
+     .navigation__item{
+        .icon-cart{
+            right: 29px;
+            position: relative;
+            font-size: 21px;
+        }
+        .badge-item{
+            .ant-avatar{
+               background: white !important; 
+            }
+        }
+    }
+   } 
+}
+}
+}
